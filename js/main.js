@@ -110,7 +110,7 @@
 
 var formdata = new FormData();
 formdata.append("type", "Thick Horizontal");
-formdata.append("tags", "furniture");
+formdata.append("tags", "car,furniture");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);

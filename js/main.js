@@ -110,7 +110,7 @@
 
 var formdata = new FormData();
 formdata.append("type", "Thick Horizontal");
-formdata.append("tags", "car,furniture");
+formdata.append("tags", "car,parts,radio,audio,rims,tyre,repair,engine,service,mats,accessories");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);

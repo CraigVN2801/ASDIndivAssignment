@@ -110,7 +110,7 @@
 
 var formdata = new FormData();
 formdata.append("type", "Thick Horizontal");
-formdata.append("tags", "car, sale, service, car wash, oil change, special, discount, new, vehicle, repair, paint, leather, wash, polish, interior, new, vacuum, wax, tires, furniture, road, accident, fix, vehicle spa");
+formdata.append("tags", "furniture");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
